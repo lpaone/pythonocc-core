@@ -1,0 +1,9 @@
+name: pyocc0181
+channels:
+- pythonocc
+- conda-forge
+- dlr-sc
+- oce
+- defaults
+dependencies:
+- pythonocc-core=0.18.1

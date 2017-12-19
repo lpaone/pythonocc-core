@@ -109,3 +109,8 @@ test_script:
 artifacts:
   - path: dist\*
     name: packages
+
+branches:
+  only:
+    - master
+    - /^review/
